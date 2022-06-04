@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Results</title>
+</head>
+<body>
+
+	<h2>Drug Reommendation System</h2>
+
+<div>
+<br>
+<tr>
+                    <th>Top Drugs Recommended :</th>
+               
+
+                  </tr>
+<br>
+                 <tr>
+		    {% for drug in table %}
+		    <br>
+		       <td>{{drug}}</td>
+		       </br>
+
+		    {% endfor %}
+		</tr>
+</div>
+</body>
+</html>
+
